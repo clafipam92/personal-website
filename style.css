@@ -1,0 +1,32 @@
+
+/* Basic resets */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, sans-serif; line-height: 1.6; background-color: #f5f8fc; color: #333; }
+
+/* Hero section */
+.hero { background-color: #004A8F; color: white; padding: 60px 20px; text-align: center; }
+.hero .portrait { width: 180px; height: 180px; border-radius: 50%; border: 5px solid white; margin-bottom: 20px; object-fit: cover; }
+.hero h1 { font-size: 2.2rem; margin-bottom: 10px; }
+.hero .tagline { font-size: 1.1rem; opacity: 0.9; }
+
+/* Navigation */
+.navbar { background-color: #016EB3; display: flex; justify-content: center; }
+.navbar ul { list-style: none; display: flex; flex-wrap: wrap; }
+.navbar li { margin: 0 15px; }
+.navbar a { display: block; padding: 15px 0; color: white; text-decoration: none; font-weight: bold; }
+.navbar a:hover { text-decoration: underline; }
+
+main { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+section { margin-bottom: 40px; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+section h2 { color: #004A8F; margin-bottom: 20px; border-bottom: 2px solid #cfe0f3; padding-bottom: 8px; }
+section h3 { color: #005FA3; margin-top: 25px; margin-bottom: 10px; }
+
+ul { margin-left: 20px; }
+li { margin-bottom: 10px; }
+
+.btn { background-color: #004A8F; color: white; padding: 10px 20px; border-radius: 4px; text-decoration: none; font-weight: bold; }
+.btn:hover { background-color: #003566; }
+
+.footer { background-color: #004A8F; color: white; text-align: center; padding: 20px 10px; margin-top: 40px; }
+.footer a { color: #cfe0f3; text-decoration: none; }
